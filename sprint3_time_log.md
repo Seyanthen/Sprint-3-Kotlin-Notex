@@ -28,10 +28,10 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |----------|----------|:------:|--------------------------------------------|:-----------:|
 |10-19-26|10:15|IM|Planning Sprint 3|50|
 |10-19-26|10:15|MTG|Planning Meeting Sprint 3|10|
-||||||
-||||||
-||||||
-||||||
+|10-19-26|8:00|TM|Development Environment Setup|60|
+|10-20-26|12:15|IM|IDE Config - ChatGPT Config|75|
+|10-21-26|10:15|TP|In Class Work Day|65|
+|10-21-26|11:35|IM|Kotlin Hello World|55|
 ||||||
 ||||||
 ||||||

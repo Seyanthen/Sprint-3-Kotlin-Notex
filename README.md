@@ -18,23 +18,27 @@ Modify your program to demonstrate the varied uses of the when keyword.
 
 Steps to build and/or run the software:
 
-1. First step here
-2.
-3.
+1. Install JDK 25 and open this folder in IntelliJ IDEA.
+2. Load `build.gradle.kts` as a Gradle project when IntelliJ prompts you. Use the Gradle wrapper and JDK 25 for the Gradle JVM.
+3. In the project terminal, run `.\gradlew.bat build` to compile and package the app. The first build downloads Gradle and Kotlin dependencies and requires internet access.
+
+On macOS or Linux, use `./gradlew build` instead.
 
 Instructions for using the software:
 
-1. First step here
-2.
-3.
+1. Run `.\gradlew.bat run` in the project terminal, or run the Gradle `application > run` task in IntelliJ.
+2. The starter app prints a welcome message. Add the note-taking features in `src/main/kotlin/Main.kt`.
+
+On macOS or Linux, use `./gradlew run` instead.
 
 ## Development Environment
 
 To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-* First thing here
-*
-*
+* IntelliJ IDEA with Kotlin and Gradle support enabled
+* JDK 25 (the project uses a Java 25 toolchain)
+* Kotlin 2.3.21 (downloaded automatically by Gradle)
+* Gradle 9.3.0 (provided by the checked-in Gradle wrapper)
 
 ## Useful Websites to Learn More
 
