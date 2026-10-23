@@ -3,59 +3,31 @@
 *   CSE 310 Sprint 3 Project
 *   Joshua Adams
 * */
+// import libraries
+import java.time.LocalDate
 
 fun main() {
     println("Welcome to Notex!")
 
-    // Basic Classes and Objects
-    val myCar = Car()
-    myCar.brand = "Honda"
-    myCar.model = "Civic"
-    myCar.year = 2009
+    println ("Let's make your first note. What should it be titled? ")
+    val firstNote = Note()
+    firstNote.title = readln()
 
-    val yourCar = Car()
-    yourCar.brand = "Toyota"
-    yourCar.model = "Corolla"
-    yourCar.year = 2013
+    var toDate = LocalDate.now()
+    firstNote.date = toDate
 
-    printCar(myCar)
-    printCar(yourCar)
+    println("Great, now what is the content of your note?")
+    firstNote.content = readln()
 
-    // Kotlin Constructor
-    val hisCar = ConCar("Ford", "F150", 2015)
-    printConCar(hisCar)
-
-    myCar.drive()
-    myCar.speed(180)
-    yourCar.drive()
-    yourCar.speed(190)
-
+    println("Successfully created note!")
+    println(firstNote.title + " " + firstNote.date)
+    println(firstNote.content)
 
 } // end of main()
 
 // Kotlin basic Class
-class Car {
-    var brand = ""
-    var model = ""
-    var year = 0
-
-    // Class function
-    fun drive() {
-        println("Vroom!")
-    }
-
-    fun speed (topSpeed: Int){
-        println("Top speed: $topSpeed")
-    }
-}
-
-// Kotlin Constructor
-class ConCar (var brand: String, var model: String, var year: Int)
-
-// Print function for classes
-fun printCar(car: Car) {
-    println("${car.brand} ${car.model} ${car.year}")
-}
-fun printConCar(car: ConCar) {
-    println("${car.brand} ${car.model} ${car.year}")
+class Note {
+    var title: String = ""
+    var date: LocalDate? = null
+    var content: String = ""
 }
