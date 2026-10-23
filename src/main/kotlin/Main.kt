@@ -5,62 +5,57 @@
 * */
 
 fun main() {
-    // This is a single line comment
     println("Welcome to Notex!")
 
-    // variables do not need to be declared by type
-    var name = "Jeff" // var variables can change
-    val birthyear = 1976 // val constants cannot change
+    // Basic Classes and Objects
+    val myCar = Car()
+    myCar.brand = "Honda"
+    myCar.model = "Civic"
+    myCar.year = 2009
 
-    // call to another function
-    printNameYear(name, birthyear)
+    val yourCar = Car()
+    yourCar.brand = "Toyota"
+    yourCar.model = "Corolla"
+    yourCar.year = 2013
 
-    // function with return values
-    println(ageRange(birthyear))
-    println(ageRange(2004))
-    println(ageRange(1940))
-    println(myMath(birthyear, 24))
-    println()
+    printCar(myCar)
+    printCar(yourCar)
 
-    // multiple ways to concatenate
-    println("Hello " + name)
-    name = "Bryan"
-    println("$name was born in $birthyear")
-    println()
+    // Kotlin Constructor
+    val hisCar = ConCar("Ford", "F150", 2015)
+    printConCar(hisCar)
 
-    // basic loop functionality and break function
-    var i = 0
-    while (i < 10) {
-        // println(i)
-        i++
-        if (i == 4) {
-            break
-        }
-    }
-
-    // basic array features
-    val carsList = arrayOf("Volvo", "BMW", "Ford", "Mazda")
-    carsList[0] = "Toyota"
-    println(carsList[0])
+    myCar.drive()
+    myCar.speed(180)
+    yourCar.drive()
+    yourCar.speed(190)
 
 
 } // end of main()
 
-// First test function
-fun printNameYear(text: String, number: Number) {
-    println(text + number)
-}
+// Kotlin basic Class
+class Car {
+    var brand = ""
+    var model = ""
+    var year = 0
 
-// function with return
-fun ageRange(birthyear: Int): String {
-    if (birthyear < 1980 && birthyear > 1970) {
-        return "Disco party time"
-    } else if (birthyear > 1980) {
-        return "Newbies"
-    } else {
-        return "Too old!"
+    // Class function
+    fun drive() {
+        println("Vroom!")
+    }
+
+    fun speed (topSpeed: Int){
+        println("Top speed: $topSpeed")
     }
 }
 
-// shorthand return
-fun myMath(x: Int, y: Int) = x + y
+// Kotlin Constructor
+class ConCar (var brand: String, var model: String, var year: Int)
+
+// Print function for classes
+fun printCar(car: Car) {
+    println("${car.brand} ${car.model} ${car.year}")
+}
+fun printConCar(car: ConCar) {
+    println("${car.brand} ${car.model} ${car.year}")
+}
