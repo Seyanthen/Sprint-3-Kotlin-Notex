@@ -3,11 +3,11 @@
 A note-taking app that lets users create, edit, and organize notes.
 
 Write one or more programs in Kotlin that demonstrates the following 5 things:
-Variables (mutable and immutable)
-Conditionals
-Loops
-Functions
-Classes
+* [ ] Variables (mutable and immutable)
+* [ ] Conditionals
+* [x] Loops
+* [x] Functions
+* [x] Classes
 
 Stretch Challenges (select one):
 Modify your program to demonstrate the creation and modification of collections.
