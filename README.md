@@ -1,6 +1,6 @@
 # Notex (1.0)
 
-A note-taking app that lets users create, edit, and organize notes.
+A Kotlin console note-taking app that lets users create notes, edit their titles and content, and print existing notes. Each note includes a title, creation date, and content. Notes are stored in a mutable list during the current session and are not saved after the program exits.
 
 Write one or more programs in Kotlin that demonstrates the following 5 things:
 * [x] Variables (mutable and immutable)
@@ -10,9 +10,7 @@ Write one or more programs in Kotlin that demonstrates the following 5 things:
 * [x] Classes
 
 Stretch Challenges (select one):
-* [ ] Modify your program to demonstrate the creation and modification of collections.
-* [ ] Modify your program to demonstrate data classes.
-* [ ] Modify your program to demonstrate the varied uses of the when keyword.
+* [x] Modify your program to demonstrate the creation and modification of collections.
 
 ## Instructions for Build and Use
 
@@ -27,7 +25,11 @@ On macOS or Linux, use `./gradlew build` instead.
 Instructions for using the software:
 
 1. Run `.\gradlew.bat run` in the project terminal, or run the Gradle `application > run` task in IntelliJ.
-2. The starter app prints a welcome message. Add the note-taking features in `src/main/kotlin/Main.kt`.
+2. The app displays a welcome message and a main menu. An example note is available at startup.
+3. Choose `1` to create a note by entering its title and content. The creation date is set automatically.
+4. Choose `2` to edit a note. Select its number from the list, then answer `Y` or `N` to change its title and content.
+5. Choose `3` to print a note. Select its number to display its title, creation date, and content in the console.
+6. Choose `4` to exit. Notes created or edited during the session are not saved between runs.
 
 On macOS or Linux, use `./gradlew run` instead.
 
@@ -45,13 +47,9 @@ To recreate the development environment, you need the following software and/or 
 I found these websites useful in developing this software:
 
 * [W3 Schools Tutorial](https://www.w3schools.com/kotlin/index.php)
-*
-*
 
 ## Future Work
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
-* [ ] First thing here
-* [ ]
-* [ ]
+* [ ] Implement Android App UI functionality

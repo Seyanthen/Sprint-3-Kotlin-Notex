@@ -6,12 +6,14 @@
 *   AI was used in this project in the following ways:
 *   - Main menu logic planning
 *   - UI Experience programming
+*   - Readme Instructions for Build and Use & Development Environment
 * */
 // import libraries
 import java.time.LocalDate
 
 fun main() {
     // create mutable list of Notes
+    // COLLECTION STRETCH CHALLENGE
     val notes = mutableListOf<Note>()
 
     // UI experience
