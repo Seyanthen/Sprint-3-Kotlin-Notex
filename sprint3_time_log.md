@@ -37,6 +37,10 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |10-23-26|10:15|TP|Team Project Work Day|60|
 |10-23-26|11:15|TP|Sprint 3 Catch Up||
 |10-23-26|12:50|IM|Note Creation Functionality|60|
+|10-26-26|9:10|IM||60|
+||||||
+||||||
+||||||
 ||||||
 ||||||
 
