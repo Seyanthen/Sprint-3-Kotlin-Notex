@@ -5,7 +5,7 @@
       <option name="externalSystemIdString" value="GRADLE" />
       <option name="taskNames">
         <list>
-          <option value="run" />
+          <option value=":app:assembleDebug" />
         </list>
       </option>
     </ExternalSystemSettings>

@@ -28,19 +28,19 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |----------|----------|:------:|--------------------------------------------|:-----------:|
 |10-19-26|10:15|IM|Planning Sprint 3|50|
 |10-19-26|10:15|MTG|Planning Meeting Sprint 3|10|
-|10-19-26|8:00|TM|Development Environment Setup|60|
+|10-19-26|8:00|IM|Development Environment Setup|60|
 |10-20-26|12:15|IM|IDE Config - ChatGPT Config|75|
 |10-21-26|10:15|TP|Team Project Work Day|65|
 |10-21-26|11:35|IM|Kotlin Hello World|60|
 |10-22-26|5:00|IM|Kotlin W3 Schools Tutorial|60|
 |10-23-26|10:15|MTG|Stand Up Meeting|6|
 |10-23-26|10:15|TP|Team Project Work Day|60|
-|10-23-26|11:15|TP|Sprint 3 Catch Up||
+|10-23-26|11:15|TP|Sprint 3 Catch Up|30|
 |10-23-26|12:50|IM|Note Creation Functionality|60|
 |10-26-26|9:10|IM|Project requirements and stretch challenge fulfilled|60|
-||||||
-||||||
-||||||
+|10-26-26|10:15|TP|Team Project Work Day|60|
+|10-26-26|11:15|TP|Sprint 3 Catch Up|40|
+|10-27-26|10:10|IM|GUI Planning|50|
 ||||||
 ||||||
 
@@ -51,7 +51,7 @@ _Note: Add more rows as needed._
 
 |Categroy                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |                          |
-|TP - Team Project              |                          |
-|MTG - Class Meetings           |                          |
-|**TOTAL**                      |                          |
+|IM - Individual Module         |           7:50           |
+|TP - Team Project              |           4:15           |
+|MTG - Class Meetings           |           0:16           |
+|**TOTAL**                      |        **12:21**         |

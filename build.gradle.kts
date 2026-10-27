@@ -1,23 +1,4 @@
 plugins {
-    kotlin("jvm") version "2.3.21"
-    application
-}
-
-group = "notex"
-version = "1.0.0"
-
-repositories {
-    mavenCentral()
-}
-
-kotlin {
-    jvmToolchain(25)
-}
-
-application {
-    mainClass.set("MainKt")
-}
-
-tasks.named<JavaExec>("run") {
-    standardInput = System.`in`
+    id("com.android.application") version "9.0.1" apply false
+    id("org.jetbrains.kotlin.plugin.compose") version "2.2.10" apply false
 }
