@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notex</string>
+    <string name="notes">Notes</string>
+    <string name="note_detail">Note</string>
+    <string name="add_note">Add note</string>
+    <string name="edit_note">Edit note</string>
+    <string name="edit">Edit</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_notes">Your notes start here</string>
+    <string name="empty_hint">Tap Add note to capture an idea, a reminder, or anything on your mind.</string>
+    <string name="created_on">Created %1$s</string>
+    <string name="empty_content">No content</string>
+    <string name="title_label">Title (required)</string>
+    <string name="content_label">Content (optional)</string>
+    <string name="title_required">Enter a title to save this note.</string>
+    <string name="discard_title">Discard changes?</string>
+    <string name="discard_message">Your unsaved changes will be lost.</string>
+    <string name="discard">Discard changes</string>
+    <string name="keep_editing">Keep editing</string>
+    <string name="note_missing">This note is no longer available. Go Back to your notes.</string>
+    <string name="save_missing">This note is no longer available to update. Copy your draft before going Back.</string>
+    <string name="loading">Loading saved notes?</string>
+    <string name="saving">Saving?</string>
+    <string name="load_error">Could not load your notes. Try again.</string>
+    <string name="retry">Retry</string>
+    <string name="save_error">Could not save this note. Your draft is still here. Try Save again.</string>
+</resources>

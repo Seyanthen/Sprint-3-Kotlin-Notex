@@ -40,10 +40,14 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |10-26-26|9:10|IM|Project requirements and stretch challenge fulfilled|60|
 |10-26-26|10:15|TP|Team Project Work Day|60|
 |10-26-26|11:15|TP|Sprint 3 Catch Up|40|
-|10-27-26|10:10|IM|GUI Planning|50|
+|10-27-26|10:10|IM|GUI Planning - Prompt Engineering|40|
+|10-27-26|12:10|IM|Android Studio Configuration|40|
+|10-28-26|10:15|MTG|Group Presentation Day|60|
+|10-28-26|12:50|IM|Notex UI by Jetpack Compose and Material 3|25|
+|10-29-26|9:00|IM|Notex UI Implementation - Presentation preparation|55|
 ||||||
 ||||||
-
+||||||
 
 _Note: Add more rows as needed._
 
@@ -51,7 +55,7 @@ _Note: Add more rows as needed._
 
 |Categroy                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |           7:50           |
+|IM - Individual Module         |           9:50           |
 |TP - Team Project              |           4:15           |
-|MTG - Class Meetings           |           0:16           |
-|**TOTAL**                      |        **12:21**         |
+|MTG - Class Meetings           |           1:16           |
+|**TOTAL**                      |        **15:21**         |
